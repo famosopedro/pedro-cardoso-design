@@ -5,7 +5,6 @@ import { Mail, ExternalLink } from "lucide-react";
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white font-sans">
-      {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center px-6 py-24">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
@@ -24,16 +23,12 @@ export default function Home() {
           Soluções visuais inteligentes para marcas que querem se destacar.
         </motion.p>
       </section>
-
-      {/* Sobre Mim */}
       <section className="px-6 py-20 max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold mb-6">Sobre Mim</h2>
         <p className="text-neutral-300 leading-relaxed">
           Sou designer gráfico com mais de 10 anos de experiência, atuando em projetos de identidade visual, branding, campanhas digitais e muito mais. Tenho paixão por transformar ideias em peças visuais impactantes.
         </p>
       </section>
-
-      {/* Projetos */}
       <section className="bg-neutral-900 px-6 py-20">
         <h2 className="text-3xl font-semibold mb-10 text-center">Projetos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -48,8 +43,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* Contato */}
       <section className="px-6 py-20 text-center">
         <h2 className="text-3xl font-semibold mb-6">Vamos conversar?</h2>
         <p className="text-neutral-400 mb-6">Entre em contato para orçamentos ou parcerias criativas.</p>
